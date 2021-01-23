@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.shape.Rectangle?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="340.0" prefWidth="600.0" style="-fx-background-color: #BFC1C2;" xmlns="http://javafx.com/javafx/" xmlns:fx="http://javafx.com/fxml/1">
+    <children>
+        <VBox alignment="CENTER" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="340.0" prefWidth="600.0">
+            <children>
+                <Label fx:id="title" alignment="CENTER" contentDisplay="CENTER" text="CZY NA PEWNO CHCESZ WYJŚĆ Z PROGRAMU?">
+                    <font>
+                        <Font name="Calibri Bold" size="27.0" />
+                    </font>
+                    <VBox.margin>
+                        <Insets bottom="10.0" top="80.0" />
+                    </VBox.margin>
+                </Label>
+            <HBox alignment="CENTER" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="200.0" prefWidth="600.0">
+               <children>
+                  <Button fx:id="yes" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" prefHeight="50.0" prefWidth="100.0" text="TAK">
+                     <HBox.margin>
+                        <Insets right="100.0" />
+                     </HBox.margin>
+                     <font>
+                        <Font name="Calibri Bold" size="30.0" />
+                     </font>
+                  </Button>
+                      <Button fx:id="no" alignment="CENTER" cancelButton="true" contentDisplay="CENTER" defaultButton="true" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" prefHeight="50.0" prefWidth="100.0" text="NIE">
+                          <font>
+                              <Font name="Calibri Bold" size="30.0" />
+                          </font>
+                      </Button>
+               </children>
+            </HBox>
+            </children>
+        </VBox>
+        <Rectangle height="340.0" stroke="BLACK" strokeType="INSIDE" width="10.0" />
+        <Rectangle height="10.0" stroke="BLACK" strokeType="INSIDE" width="600.0" />
+        <Rectangle height="340.0" layoutX="591.0" stroke="BLACK" strokeType="INSIDE" width="10.0" />
+        <Rectangle height="10.0" layoutY="331.0" stroke="BLACK" strokeType="INSIDE" width="600.0" />
+    </children>
+</AnchorPane>
